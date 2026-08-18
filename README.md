@@ -20,6 +20,7 @@ graph LR
  D -->|pull on deploy| E[Azure App Service]
  E -->|serves| F[Live Web App]
 ```
+
 🛠️ Technologies Used
 Python 3.11 - Application runtime
 Flask - Web framework
