@@ -39,33 +39,33 @@ graph LR
 
 1. Build the Image
 
-`bash
+```bash
 docker build -t flask-app .
-`
+```
 
 Docker Build (screenshots/screenshot-docker-build.png)
 
 2. Log In to Azure Container Registry
 
-`bash
+```bash
 az acr login --name myportfolioacr2026
-`
+```
 
 ACR Login (screenshots/screenshot-acr-login.png)
 
 3. Tag the Image
 
-`bash
+```bash
 docker tag flask-app myportfolioacr2026.azurecr.io/flask-app:latest
-`
+```
 
 Docker Tag (screenshots/screenshot-docker-tag.png)
 
 4. Push the Image to ACR
 
-`bash
+```bash
 docker push myportfolioacr2026.azurecr.io/flask-app:latest
-`
+```
 
 Docker Push (screenshots/screenshot-docker-push.png)
 
@@ -88,7 +88,7 @@ Log Stream (screenshots/screenshot-5-log-stream.png)
 
 📁 Project Structure
 
-`
+```
 azure-webapp/
 ├── app.py
 ├── Dockerfile
@@ -106,7 +106,7 @@ azure-webapp/
  ├── screenshot-3-app-service-configuration.png
  ├── screenshot-4-live-app.png
  └── screenshot-5-log-stream.png
-`
+```
 
 👤 Author
 
