@@ -32,6 +32,7 @@ Component	Name	Purpose
 Container Registry	myportfolioacr2026	Stores Docker image
 App Service	myPortfolioApp2026	Hosts containerized Flask app
 Docker Image	flask-app:latest	Packaged application
+```
 
 ## 1. Build the Image
 ```bash
