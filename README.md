@@ -1,5 +1,4 @@
-``markdown
-Containerized Flask App on Azure App Service
+#Containerized Flask App on Azure App Service
 
 A Python Flask application containerized with Docker, pushed to Azure Container Registry (ACR), and deployed to Azure App Service. This project demonstrates a full container-based deployment pipeline on Microsoft Azure.
 
