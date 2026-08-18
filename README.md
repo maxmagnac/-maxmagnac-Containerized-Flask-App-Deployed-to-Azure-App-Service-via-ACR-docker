@@ -106,6 +106,9 @@ azure-webapp/
  ├── screenshot-3-app-service-configuration.png
  ├── screenshot-4-live-app.png
  └── screenshot-5-log-stream.png
+
 👤 Author
-Maurrin Carter Cloud Engineer | Azure | Docker | Python LinkedIn | GitHub
+Maurrin Carter
+Cloud Engineer | Azure | Docker | Python
+LinkedIn | GitHub (https://github.com/maxmagnac)
 
