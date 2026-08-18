@@ -8,7 +8,7 @@ A Python Flask application containerized with Docker, pushed to Azure Container 
 
 📐 Architecture Overview
 
-```
+```mermaid
 graph LR
  A[Local Machine] -->|docker build| B[Docker Image]
  B -->|docker tag| C[ACR Tagged Image]
