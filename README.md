@@ -19,6 +19,7 @@ graph LR
  C -->|docker push| D[Azure Container Registry]
  D -->|pull on deploy| E[Azure App Service]
  E -->|serves| F[Live Web App]
+```
 🛠️ Technologies Used
 Python 3.11 - Application runtime
 Flask - Web framework
@@ -32,7 +33,7 @@ Component	Name	Purpose
 Container Registry	myportfolioacr2026	Stores Docker image
 App Service	myPortfolioApp2026	Hosts containerized Flask app
 Docker Image	flask-app:latest	Packaged application
-```
+
 
 ## 1. Build the Image
 ```bash
