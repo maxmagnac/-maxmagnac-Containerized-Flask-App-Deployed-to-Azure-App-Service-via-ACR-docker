@@ -20,6 +20,7 @@ graph LR
  C -->|docker push| D[Azure Container Registry]
  D -->|Pull Image| E[Azure App Service]
  E -->|Serve Traffic| F[End Users]
+```
 
 🛠️ Technologies Used
 Python 3.11 - Application runtime
