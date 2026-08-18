@@ -29,11 +29,14 @@ Azure Container Registry (ACR) - Private container image storage
 Azure App Service - Managed container hosting
 Gunicorn - Production WSGI server
 Azure CLI - Infrastructure management
+
 🏗️ Infrastructure Components
 Component	Name	Purpose
 Container Registry	myportfolioacr2026	Stores Docker image
 App Service	myPortfolioApp2026	Hosts containerized Flask app
 Docker Image	flask-app:latest	Packaged application
+
+🚀 Docker Pipeline Steps
 
 
 ## 1. Build the Image
