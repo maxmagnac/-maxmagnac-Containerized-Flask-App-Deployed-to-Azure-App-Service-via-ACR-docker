@@ -110,5 +110,5 @@ azure-webapp/
 👤 Author
 Maurrin Carter
 Cloud Engineer | Azure | Docker | Python
-LinkedIn | GitHub (https://github.com/maxmagnac)
+LinkedIn (https://www.linkedin.com/in/maurrincarter/) | GitHub (https://github.com/maxmagnac)
 
